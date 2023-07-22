@@ -26,6 +26,7 @@ sudo rm ./google-chrome-stable_current_amd64.deb
 ### SSH-KEY SETUP
 
 - for "ubuntu" repository : 
+
 ```shell
 ssh -T git@github.com
 git remote set-url origin git@github.com:pguffroy13/ubuntu.git
@@ -35,6 +36,8 @@ git push
 ```
 
 ### INIT NEW REPOSITORY
+
+- inititate branche ``master`` :
 
 ```shell
 git branch -m main master
